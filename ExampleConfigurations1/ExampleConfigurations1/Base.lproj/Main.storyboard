@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bKO-mb-0rU">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="7ia-PY-T6H">
+            <objects>
+                <navigationController id="bKO-mb-0rU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZoA-gH-6gu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ExA-gt-wYQ" kind="relationship" relationship="rootViewController" id="ScC-fW-Ue8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T3f-Av-eH2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-654" y="475"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="f49-Ky-W6c">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ExA-gt-wYQ" customClass="MainViewController" customModule="ExampleConfigurations1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BCr-RL-LXv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="ei0-2g-ojq">
+                                <rect key="frame" x="39.5" y="433" width="296" height="34"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pb-WY-t7g">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="34"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                        <state key="normal" title="CallOne"/>
+                                        <connections>
+                                            <action selector="oneButtonTouchUpINside:" destination="ExA-gt-wYQ" eventType="touchUpInside" id="Lea-O9-JcM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFV-Bl-ZbM">
+                                        <rect key="frame" x="104" y="0.0" width="67" height="34"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                        <state key="normal" title="Call Two">
+                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="twoButtonTouchUpInside:" destination="ExA-gt-wYQ" eventType="touchUpInside" id="Hya-g0-hWG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5Q-g5-okn">
+                                        <rect key="frame" x="215" y="0.0" width="81" height="34"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                        <state key="normal" title="Call Three">
+                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="threeButtonTouchUpInside:" destination="ExA-gt-wYQ" eventType="touchUpInside" id="gEA-Hj-Z2i"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxQ-3h-pnt">
+                                <rect key="frame" x="37.5" y="84" width="300" height="271"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mbg-Hy-vDf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mbg-Hy-vDf" firstAttribute="bottom" secondItem="ei0-2g-ojq" secondAttribute="bottom" constant="200" id="4Ye-I0-x1C"/>
+                            <constraint firstItem="ei0-2g-ojq" firstAttribute="centerX" secondItem="BCr-RL-LXv" secondAttribute="centerX" id="EPF-SG-qMy"/>
+                            <constraint firstItem="zxQ-3h-pnt" firstAttribute="height" secondItem="BCr-RL-LXv" secondAttribute="height" multiplier="0.406297" id="cZ3-gc-cSY"/>
+                            <constraint firstItem="zxQ-3h-pnt" firstAttribute="top" secondItem="mbg-Hy-vDf" secondAttribute="top" constant="40" id="nYU-dk-aS0"/>
+                            <constraint firstItem="zxQ-3h-pnt" firstAttribute="width" secondItem="BCr-RL-LXv" secondAttribute="width" multiplier="0.8" id="oHb-pM-bNr"/>
+                            <constraint firstItem="zxQ-3h-pnt" firstAttribute="centerX" secondItem="BCr-RL-LXv" secondAttribute="centerX" id="zhb-5q-fMp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uGq-r0-x8x"/>
+                    <connections>
+                        <outlet property="buttonOne" destination="6pb-WY-t7g" id="8ja-L9-xep"/>
+                        <outlet property="buttonTthree" destination="x5Q-g5-okn" id="OaD-oh-SiJ"/>
+                        <outlet property="buttonTwo" destination="iFV-Bl-ZbM" id="k87-KW-F4b"/>
+                        <outlet property="mainLabel" destination="zxQ-3h-pnt" id="B6V-WK-TpX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lmT-Hv-Vrv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165.59999999999999" y="474.51274362818594"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B368EE226F7A0BF0026A499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B368EE126F7A0BF0026A499 /* AppDelegate.swift */; };
+		6B368EEB26F7A0BF0026A499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B368EE926F7A0BF0026A499 /* Main.storyboard */; };
+		6B368EED26F7A0C20026A499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B368EEC26F7A0C20026A499 /* Assets.xcassets */; };
+		6B368EF026F7A0C20026A499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B368EEE26F7A0C20026A499 /* LaunchScreen.storyboard */; };
+		6B368EF826F7A20E0026A499 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B368EF726F7A20E0026A499 /* MainViewController.swift */; };
+		6B368EFA26F7A26D0026A499 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B368EF926F7A26D0026A499 /* MainViewModel.swift */; };
+		6B368EFC26F7B3C30026A499 /* HeaderConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B368EFB26F7B3C30026A499 /* HeaderConfiguratorProtocol.swift */; };
+		6B368F1626F7B7B00026A499 /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368EFF26F7B7AF0026A499 /* Raleway-Italic-VariableFont_wght.ttf */; };
+		6B368F1726F7B7B00026A499 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0126F7B7AF0026A499 /* Raleway-BoldItalic.ttf */; };
+		6B368F1826F7B7B00026A499 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0226F7B7AF0026A499 /* Raleway-MediumItalic.ttf */; };
+		6B368F1926F7B7B00026A499 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0326F7B7AF0026A499 /* Raleway-ThinItalic.ttf */; };
+		6B368F1A26F7B7B00026A499 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0426F7B7AF0026A499 /* Raleway-ExtraLight.ttf */; };
+		6B368F1B26F7B7B00026A499 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0526F7B7AF0026A499 /* Raleway-Medium.ttf */; };
+		6B368F1C26F7B7B00026A499 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0626F7B7AF0026A499 /* Raleway-SemiBold.ttf */; };
+		6B368F1D26F7B7B00026A499 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0726F7B7B00026A499 /* Raleway-ExtraBold.ttf */; };
+		6B368F1E26F7B7B00026A499 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0826F7B7B00026A499 /* Raleway-ExtraBoldItalic.ttf */; };
+		6B368F1F26F7B7B00026A499 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0926F7B7B00026A499 /* Raleway-Regular.ttf */; };
+		6B368F2026F7B7B00026A499 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0A26F7B7B00026A499 /* Raleway-ExtraLightItalic.ttf */; };
+		6B368F2126F7B7B00026A499 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0B26F7B7B00026A499 /* Raleway-SemiBoldItalic.ttf */; };
+		6B368F2226F7B7B00026A499 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0C26F7B7B00026A499 /* Raleway-Light.ttf */; };
+		6B368F2326F7B7B00026A499 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0D26F7B7B00026A499 /* Raleway-Black.ttf */; };
+		6B368F2426F7B7B00026A499 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0E26F7B7B00026A499 /* Raleway-BlackItalic.ttf */; };
+		6B368F2526F7B7B00026A499 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F0F26F7B7B00026A499 /* Raleway-LightItalic.ttf */; };
+		6B368F2626F7B7B00026A499 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F1026F7B7B00026A499 /* Raleway-Thin.ttf */; };
+		6B368F2726F7B7B00026A499 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F1126F7B7B00026A499 /* Raleway-Italic.ttf */; };
+		6B368F2826F7B7B00026A499 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F1226F7B7B00026A499 /* Raleway-Bold.ttf */; };
+		6B368F2926F7B7B00026A499 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F1326F7B7B00026A499 /* OFL.txt */; };
+		6B368F2A26F7B7B00026A499 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F1426F7B7B00026A499 /* Raleway-VariableFont_wght.ttf */; };
+		6B368F2B26F7B7B00026A499 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B368F1526F7B7B00026A499 /* README.txt */; };
+		6BAF085826FE3E9E00860E38 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BAF085726FE3E9E00860E38 /* Configuration.plist */; };
+		6BAF085A26FE3EB000860E38 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BAF085926FE3EB000860E38 /* Configuration.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B368EDE26F7A0BE0026A499 /* ExampleConfigurations1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleConfigurations1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B368EE126F7A0BF0026A499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B368EEA26F7A0BF0026A499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B368EEC26F7A0C20026A499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B368EEF26F7A0C20026A499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B368EF126F7A0C30026A499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B368EF726F7A20E0026A499 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6B368EF926F7A26D0026A499 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6B368EFB26F7B3C30026A499 /* HeaderConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		6B368EFF26F7B7AF0026A499 /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6B368F0126F7B7AF0026A499 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0226F7B7AF0026A499 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0326F7B7AF0026A499 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0426F7B7AF0026A499 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6B368F0526F7B7AF0026A499 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		6B368F0626F7B7AF0026A499 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		6B368F0726F7B7B00026A499 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6B368F0826F7B7B00026A499 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0926F7B7B00026A499 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		6B368F0A26F7B7B00026A499 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0B26F7B7B00026A499 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0C26F7B7B00026A499 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		6B368F0D26F7B7B00026A499 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		6B368F0E26F7B7B00026A499 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6B368F0F26F7B7B00026A499 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		6B368F1026F7B7B00026A499 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		6B368F1126F7B7B00026A499 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		6B368F1226F7B7B00026A499 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		6B368F1326F7B7B00026A499 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6B368F1426F7B7B00026A499 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6B368F1526F7B7B00026A499 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6BAF085726FE3E9E00860E38 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		6BAF085926FE3EB000860E38 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B368EDB26F7A0BE0026A499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B368ED526F7A0BE0026A499 = {
+			isa = PBXGroup;
+			children = (
+				6B368EFD26F7B79E0026A499 /* Resources */,
+				6B368EE026F7A0BF0026A499 /* ExampleConfigurations1 */,
+				6B368EDF26F7A0BE0026A499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B368EDF26F7A0BE0026A499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B368EDE26F7A0BE0026A499 /* ExampleConfigurations1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B368EE026F7A0BF0026A499 /* ExampleConfigurations1 */ = {
+			isa = PBXGroup;
+			children = (
+				6B368EE126F7A0BF0026A499 /* AppDelegate.swift */,
+				6B368EE926F7A0BF0026A499 /* Main.storyboard */,
+				6B368EF726F7A20E0026A499 /* MainViewController.swift */,
+				6B368EFB26F7B3C30026A499 /* HeaderConfiguratorProtocol.swift */,
+				6B368EF926F7A26D0026A499 /* MainViewModel.swift */,
+				6B368EEC26F7A0C20026A499 /* Assets.xcassets */,
+				6B368EEE26F7A0C20026A499 /* LaunchScreen.storyboard */,
+				6B368EF126F7A0C30026A499 /* Info.plist */,
+			);
+			path = ExampleConfigurations1;
+			sourceTree = "<group>";
+		};
+		6B368EFD26F7B79E0026A499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BAF085426FE3E4D00860E38 /* Configurations */,
+				6B368EFE26F7B7AF0026A499 /* Raleway */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B368EFE26F7B7AF0026A499 /* Raleway */ = {
+			isa = PBXGroup;
+			children = (
+				6B368EFF26F7B7AF0026A499 /* Raleway-Italic-VariableFont_wght.ttf */,
+				6B368F0026F7B7AF0026A499 /* static */,
+				6B368F1326F7B7B00026A499 /* OFL.txt */,
+				6B368F1426F7B7B00026A499 /* Raleway-VariableFont_wght.ttf */,
+				6B368F1526F7B7B00026A499 /* README.txt */,
+			);
+			path = Raleway;
+			sourceTree = "<group>";
+		};
+		6B368F0026F7B7AF0026A499 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				6B368F0126F7B7AF0026A499 /* Raleway-BoldItalic.ttf */,
+				6B368F0226F7B7AF0026A499 /* Raleway-MediumItalic.ttf */,
+				6B368F0326F7B7AF0026A499 /* Raleway-ThinItalic.ttf */,
+				6B368F0426F7B7AF0026A499 /* Raleway-ExtraLight.ttf */,
+				6B368F0526F7B7AF0026A499 /* Raleway-Medium.ttf */,
+				6B368F0626F7B7AF0026A499 /* Raleway-SemiBold.ttf */,
+				6B368F0726F7B7B00026A499 /* Raleway-ExtraBold.ttf */,
+				6B368F0826F7B7B00026A499 /* Raleway-ExtraBoldItalic.ttf */,
+				6B368F0926F7B7B00026A499 /* Raleway-Regular.ttf */,
+				6B368F0A26F7B7B00026A499 /* Raleway-ExtraLightItalic.ttf */,
+				6B368F0B26F7B7B00026A499 /* Raleway-SemiBoldItalic.ttf */,
+				6B368F0C26F7B7B00026A499 /* Raleway-Light.ttf */,
+				6B368F0D26F7B7B00026A499 /* Raleway-Black.ttf */,
+				6B368F0E26F7B7B00026A499 /* Raleway-BlackItalic.ttf */,
+				6B368F0F26F7B7B00026A499 /* Raleway-LightItalic.ttf */,
+				6B368F1026F7B7B00026A499 /* Raleway-Thin.ttf */,
+				6B368F1126F7B7B00026A499 /* Raleway-Italic.ttf */,
+				6B368F1226F7B7B00026A499 /* Raleway-Bold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		6BAF085426FE3E4D00860E38 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6BAF085626FE3E6F00860E38 /* Release */,
+				6BAF085526FE3E6500860E38 /* Debug */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		6BAF085526FE3E6500860E38 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				6BAF085926FE3EB000860E38 /* Configuration.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		6BAF085626FE3E6F00860E38 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				6BAF085726FE3E9E00860E38 /* Configuration.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B368EDD26F7A0BE0026A499 /* ExampleConfigurations1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B368EF426F7A0C30026A499 /* Build configuration list for PBXNativeTarget "ExampleConfigurations1" */;
+			buildPhases = (
+				6B368EDA26F7A0BE0026A499 /* Sources */,
+				6B368EDB26F7A0BE0026A499 /* Frameworks */,
+				6B368EDC26F7A0BE0026A499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleConfigurations1;
+			productName = ExampleConfigurations1;
+			productReference = 6B368EDE26F7A0BE0026A499 /* ExampleConfigurations1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B368ED626F7A0BE0026A499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6B368EDD26F7A0BE0026A499 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B368ED926F7A0BE0026A499 /* Build configuration list for PBXProject "ExampleConfigurations1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B368ED526F7A0BE0026A499;
+			productRefGroup = 6B368EDF26F7A0BE0026A499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B368EDD26F7A0BE0026A499 /* ExampleConfigurations1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B368EDC26F7A0BE0026A499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B368F2126F7B7B00026A499 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				6B368F2A26F7B7B00026A499 /* Raleway-VariableFont_wght.ttf in Resources */,
+				6B368F2726F7B7B00026A499 /* Raleway-Italic.ttf in Resources */,
+				6B368F1A26F7B7B00026A499 /* Raleway-ExtraLight.ttf in Resources */,
+				6B368F2426F7B7B00026A499 /* Raleway-BlackItalic.ttf in Resources */,
+				6B368EF026F7A0C20026A499 /* LaunchScreen.storyboard in Resources */,
+				6B368EED26F7A0C20026A499 /* Assets.xcassets in Resources */,
+				6B368F2626F7B7B00026A499 /* Raleway-Thin.ttf in Resources */,
+				6B368F1726F7B7B00026A499 /* Raleway-BoldItalic.ttf in Resources */,
+				6B368F1B26F7B7B00026A499 /* Raleway-Medium.ttf in Resources */,
+				6B368F1826F7B7B00026A499 /* Raleway-MediumItalic.ttf in Resources */,
+				6B368F2226F7B7B00026A499 /* Raleway-Light.ttf in Resources */,
+				6B368F1926F7B7B00026A499 /* Raleway-ThinItalic.ttf in Resources */,
+				6B368F2926F7B7B00026A499 /* OFL.txt in Resources */,
+				6B368F2B26F7B7B00026A499 /* README.txt in Resources */,
+				6B368EEB26F7A0BF0026A499 /* Main.storyboard in Resources */,
+				6B368F1E26F7B7B00026A499 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				6B368F1626F7B7B00026A499 /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
+				6B368F1F26F7B7B00026A499 /* Raleway-Regular.ttf in Resources */,
+				6B368F2526F7B7B00026A499 /* Raleway-LightItalic.ttf in Resources */,
+				6B368F2326F7B7B00026A499 /* Raleway-Black.ttf in Resources */,
+				6B368F1C26F7B7B00026A499 /* Raleway-SemiBold.ttf in Resources */,
+				6B368F2826F7B7B00026A499 /* Raleway-Bold.ttf in Resources */,
+				6B368F2026F7B7B00026A499 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				6B368F1D26F7B7B00026A499 /* Raleway-ExtraBold.ttf in Resources */,
+				6BAF085A26FE3EB000860E38 /* Configuration.plist in Resources */,
+				6BAF085826FE3E9E00860E38 /* Configuration.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B368EDA26F7A0BE0026A499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B368EE226F7A0BF0026A499 /* AppDelegate.swift in Sources */,
+				6B368EF826F7A20E0026A499 /* MainViewController.swift in Sources */,
+				6B368EFC26F7B3C30026A499 /* HeaderConfiguratorProtocol.swift in Sources */,
+				6B368EFA26F7A26D0026A499 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B368EE926F7A0BF0026A499 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B368EEA26F7A0BF0026A499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B368EEE26F7A0C20026A499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B368EEF26F7A0C20026A499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B368EF226F7A0C30026A499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B368EF326F7A0C30026A499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B368EF526F7A0C30026A499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54XL6T6KHC;
+				INFOPLIST_FILE = ExampleConfigurations1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.iflet.ExampleConfigurations1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B368EF626F7A0C30026A499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54XL6T6KHC;
+				INFOPLIST_FILE = ExampleConfigurations1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.iflet.ExampleConfigurations1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B368ED926F7A0BE0026A499 /* Build configuration list for PBXProject "ExampleConfigurations1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B368EF226F7A0C30026A499 /* Debug */,
+				6B368EF326F7A0C30026A499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B368EF426F7A0C30026A499 /* Build configuration list for PBXNativeTarget "ExampleConfigurations1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B368EF526F7A0C30026A499 /* Debug */,
+				6B368EF626F7A0C30026A499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B368ED626F7A0BE0026A499 /* Project object */;
+}
